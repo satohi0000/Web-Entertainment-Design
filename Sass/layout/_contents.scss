@@ -3,7 +3,7 @@
   max-width: 800px;
   padding-top: 50px;
   @include tab {
-    padding-top: 0;
+    padding-top: 0px;
   }
   &__article {
     display: flex;
