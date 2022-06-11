@@ -1,3 +1,5 @@
+@use "../global" as g;
+
 .l-header {
   margin: 0 auto;
   max-width: 1000px;
@@ -9,7 +11,7 @@
     width: 109px;
     margin: 0 auto;
     padding: 46px 0px 32px 16px;
-    @include tab {
+    @include g.sp {
       padding: 37px 0px 21px 0px;
     }
     img {
@@ -22,7 +24,7 @@
     max-width: 800px;
     margin: 0 auto;
     padding-left: 15px;
-    @include tab {
+    @include g.sp {
       overflow-x: scroll;
     }
     &_left,

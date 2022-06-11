@@ -1,9 +1,8 @@
 @use "foundation/base";
-
 @use "foundation/display";
-@use "foundation/mixin";
 @use "foundation/reset";
-// @use "layout/contents";
-// @use "layout/page";
-// @use "layout/footer";
-// @use "layout/header";
+@use "global/mixin";
+@use "layout/contents";
+@use "layout/page";
+@use "layout/footer";
+@use "layout/header";

@@ -1,6 +1,8 @@
+@use "../global" as g;
+
 .l-footer {
   padding: 107px 0 10px 7px;
-  @include tab {
+  @include g.sp {
     padding: 100px 0 10px 7px;
   }
   width: 100%;
