@@ -6,20 +6,29 @@ body a {
   color: inherit;
 }
 body h1 {
-  font-size: 1rem;
-  font-weight: 900;
+  font-size: 36px;
+  font-weight: regular;
+  line-height: 0.6666666667;
+  letter-spacing: 0.2em;
 }
 body li {
-  padding-right: 14px;
-  font-size: 0.75rem;
+  font-size: 14px;
+  font-weight: regular;
+  line-height: 1.7142857143;
+  letter-spacing: 0em;
 }
 body p {
-  font-weight: normal;
-  font-size: 0.75rem;
+  font-size: 16px;
+  font-weight: regular;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 body th,
 body td {
-  font-size: 0.75rem;
+  font-size: 14px;
+  font-weight: regular;
+  line-height: 2.5142857143;
+  letter-spacing: 0em;
 }
 
 html,
@@ -441,14 +450,23 @@ select {
 }
 
 .l-footer {
-  padding: 107px 0 10px 7px;
-  width: 100%;
-  text-align: center;
+  max-width: 1000px;
 }
-@media (max-width: 599px) {
-  .l-footer {
-    padding: 100px 0 10px 7px;
-  }
+.l-footer__menu {
+  display: flex;
+  justify-content: space-between;
+}
+.l-footer__menu__logo {
+  width: 100px;
+}
+.l-footer__menu__logo img {
+  width: 100%;
+}
+.l-footer__menu__right {
+  font-size: 14px;
+  font-weight: regular;
+  line-height: 1.5;
+  letter-spacing: 0em;
 }
 
 .l-header {
@@ -473,7 +491,6 @@ select {
   display: flex;
   line-height: 70px;
   justify-content: space-between;
-  max-width: 800px;
   margin: 0 auto;
 }
 .l-header_menu_left, .l-header_menu_right {
@@ -483,5 +500,6 @@ select {
   padding-left: 30px;
 }
 .l-header_menu_right {
-  padding-left: 7px;
+  background-color: black;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

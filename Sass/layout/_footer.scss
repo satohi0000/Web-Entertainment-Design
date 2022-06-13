@@ -1,10 +1,18 @@
 @use "../global" as *;
 
 .l-footer {
-  padding: 107px 0 10px 7px;
-  @include sp {
-    padding: 100px 0 10px 7px;
+  max-width: 1000px;
+  &__menu {
+    display: flex;
+    justify-content: space-between;
+    &__logo {
+      width: 100px;
+      img {
+        width: 100%;
+      }
+    }
+    &__right {
+      @include f_around(14, regular, 21, 0);
+    }
   }
-  width: 100%;
-  text-align: center;
 }
