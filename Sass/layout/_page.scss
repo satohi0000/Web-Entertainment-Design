@@ -1,15 +1,15 @@
-@use "../global" as g;
+@use "../global" as *;
 
 .l-contents {
   &_page {
     max-width: 100%;
     display: flex;
-    @include g.sp {
+    @include sp {
       flex-direction: column;
     }
     &_picture {
       width: 50%;
-      @include g.sp {
+      @include sp {
         width: 100%;
       }
       height: 700px;
@@ -21,7 +21,7 @@
     }
     &_menu {
       width: 50%;
-      @include g.sp {
+      @include sp {
         width: 90%;
       }
       padding: 40px 5%;
@@ -90,7 +90,7 @@
       max-width: 250px;
       text-align: center;
       margin: 60px auto 0;
-      @include g.sp {
+      @include sp {
         margin: 20px auto 0;
       }
       border: 1px #2b2a27 solid;

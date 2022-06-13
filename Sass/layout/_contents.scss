@@ -1,35 +1,31 @@
-@use "../global" as g;
+@use "../global" as *;
 
 .l-contents {
   margin: 0 auto;
-  max-width: 800px;
-  padding-top: 50px;
-  @include g.sp {
-    padding-top: 0px;
+  max-width: 100%;
+  &__picture {
+    width: 100vw;
+    object-fit: cover;
+    @include sp {
+      max-width: none;
+      width: 100%;
+    }
+    img {
+      width: 100%;
+    }
   }
 
   &__article {
-    display: flex;
     padding-left: 10px;
-    @include g.sp {
+    @include sp {
       flex-direction: column;
       padding-left: 0;
     }
-    &__picture {
-      max-width: 400px;
-      @include g.sp {
-        max-width: none;
-        width: 100%;
-      }
 
-      img {
-        width: 100%;
-      }
-    }
     &__1 {
       width: 50%;
       padding-left: 62px;
-      @include g.sp {
+      @include sp {
         width: 100%;
         padding: 6px 16px;
       }
@@ -47,7 +43,7 @@
       }
       &__value {
         padding: 22px 0;
-        @include g.sp {
+        @include sp {
           padding: 26px 0;
         }
       }
@@ -86,7 +82,7 @@
         line-height: 1;
         padding: 20px 0;
         margin-top: 20px;
-        @include g.sp {
+        @include sp {
           margin-top: 26px;
         }
         margin-bottom: 30px;

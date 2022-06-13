@@ -13,140 +13,165 @@
     />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&amp;display=swap");
-      </style>
+    </style>
 
     <title>Front</title>
   </head>
 
   <body>
-    <header class = "l-header">
-        <div class="l-header_logo">
-          <img src="../画像/img/logo.svg" alt="l-header_logo" />
-        </div>
-        <nav class="l-header_menu">
-          <ul class="l-header_menu_left">
-            <a href="#"><li>ALL</li></a>
-            <a href="#"><li>NEW</li></a>
-            <a href="#"><li>VINTAGE</li></a>
-            <a href="#"><li>CATEGORY</li></a>
-            <a href="#"><li>LOOKBOOK</li></a>
-            <a href="#"><li>BLOG</li></a>
-          </ul>
-          <ul class="l-header_menu_right">
-            <a href="#"><li>LOGIN</li></a>
-            <a href="#"><li>CONTACT</li></a>
-          </ul>
-        </nav>
-      </div>
+    <header class="l-header">
+      <nav class="l-header_menu">
+        <ul class="l-header_menu_left">
+          <div class="l-header_logo">
+            <img src="../画像/img/logo.svg" alt="l-header_logo" />
+          </div>
+          <a href="#"><li>NEWS</li></a>
+          <a href="#"><li>ABOUT</li></a>
+          <a href="#"><li>BUSINESS</li></a>
+          <a href="#"><li>COMPANY</li></a>
+          <a href="#"><li>LOOKBOOK</li></a>
+        </ul>
+        <ul class="l-header_menu_right">
+          <a href="#"><li>資料請求</li></a>
+        </ul>
+      </nav>
     </header>
     <main role="main">
       <div class="l-contents">
-        <section class="l-contents__article">
-          <div class="l-contents__article__picture">
-            <img src="../画像/img/item.jpg" alt="item">
-          </div>
-          <div class="l-contents__article__1">
-            <h1 class="l-contents__article__1__title">
-              TOTALLY Short Sleeve Shirt
+        <picture class="l-contents__picture">
+          <img src="../画像/img/mainvisual.jpg" alt="item" />
+        </picture>
+        <section class="l-contents__news">
+          <div class="l-contents__section__title">
+            <h1 class="l-contents__section__title">
+              N E W S
             </h1>
-            <p class="l-contents__article__1__sentence">
-              テキストテキストテキストテキストテキストテキストテキスト
-              テキストテキストテキストテキストテキストテキストテキスト
-              テキストテキストテキストテキストテキストテキストテキスト
-              テキストテキストテキストテキストテキストテキストテキスト
-              テキストテキストテキストテキストテキストテキストテキスト
-              テキストテキストテキスト
-            </p>
-            <p class="l-contents__article__1__value">
-              ￥9,999 +tax
-            </p>
-            <table class="l-contents__article__1__item">
-              <thead>
-                <tr>
-                  <th class="l-contents__article__1__item__a">Color</th>
-                  <th class="l-contents__article__1__item__a">Size</th>
-                  <th class="l-contents__article__1__item__b"></th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>White</td>
-                  <td>S</td>
-                  <td>
-                    <select name="item_type" class="l-contents__article__1__item">
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                    </select>
-                  </td>
-                </tr>
-                <tr>
-                  <td>White</td>
-                  <td>M</td>
-                  <td>
-                    <select name="item_type" class="l-contents__article__1__item">
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                    </select>
-                  </td>
-                </tr>
-                <tr>
-                  <td>White</td>
-                  <td>L</td>
-                  <td>
-                    <select name="item_type" class="l-contents__article__1__item">
-                      <option value="1">1</option>
-                      <option value="2">2</option>
-                      <option value="3">3</option>
-                    </select>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-            <a class="l-contents__article__1__button" href="#">
-              ADD TO CART
-            </a>
-            <table class="l-contents__article__1__size">
-              <thead>
-                <tr>
-                  <th class="l-contents__article__1__size__a">Size</th>
-                  <th class="l-contents__article__1__size__b">Chest</th>
-                  <th class="l-contents__article__1__size__b">Weist</th>
-                  <th class="l-contents__article__1__size__b">Height</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td class="l-contents__article__1__size__a">S</td>
-                  <td  class="l-contents__article__1__size__b">99 ～ 99</td>
-                  <td  class="l-contents__article__1__size__b">99 ～ 99</td>
-                  <td  class="l-contents__article__1__size__b">99 ～ 99</td>
-                </tr>
-                <tr>
-                  <td class="l-contents__article__1__size__a">M</td>
-                  <td  class="l-contents__article__1__size__b">99 ～ 99</td>
-                  <td  class="l-contents__article__1__size__b">99 ～ 99</td>
-                  <td  class="l-contents__article__1__size__b">99 ～ 99</td>
-                </tr>
-                <tr>
-                  <td class="l-contents__article__1__size__a">L</td>
-                  <td  class="l-contents__article__1__size__b">99 ～ 99</td>
-                  <td  class="l-contents__article__1__size__b">99 ～ 99</td>
-                  <td  class="l-contents__article__1__size__b">99 ～ 99</td>
-                </tr>
-              </tbody>
-            </table>
+            <p>ニュース</p>
           </div>
-        </section>
-      </div>
-    </main>
+          <ul class="l-contents__news__topic">
+            <li>
+              <time class="date-area">2021.01.01</time>
+              <span>NEWS</span>
+              <p>タイトルタイトルタイトルタイトル</p>
+            </li>
+            <li>
+              <time class="date-area">2021.01.01</time>
+              <span>NEWS</span>
+              <p>タイトルタイトルタイトルタイトル</p>
+            </li>
+            <li>
+              <time class="date-area">2021.01.01</time>
+              <span>NEWS</span>
+              <p>タイトルタイトルタイトルタイトル</p>
+            </li>
+          </ul>
+          </section>
+          <section class="l-contents__about">
+            <div class="l-contents__section__title">
+              <h1 class="l-contents__section__title">
+                A B O U T
+              </h1>
+              <p>私たちについて</p>
+            </div>
+            <picture class="l-contents__about__picture">
+              <img src="../画像/img/about.jpg" alt="about.jpg">
+            </picture>
+            <p>テキストテキストテキストテキストテキストテキスト テキストテキストテキ
+              ストテキストテキストテキスト
+              テキストテキストテキストテキストテキストテキスト テキストテキストテキ
+              ストテキストテキストテキスト
+              テキストテキストテキストテキストテキストテキスト テキストテキストテキ
+              ストテキストテキストテキスト</p>
+          </section>
+          <section class="l-contents__business">
+            <div class="l-contents__section__title">
+              <h1 class="l-contents__section__title">
+                B U S I N E S S
+              </h1>
+              <p>事業内容</p>
+            </div>
+            <div class="l-contents__business__left">
+              <div class="l-contents__business__left__1">
+                <p>- Web制作・マーケティング</p>
+                <picture class ="l-contents__business__picture">
+                  <img src="../画像/img/business1.jpg" alt="business1.jpg">
+                </picture>
+              </div>
+              <div class="l-contents__business__left__2">
+                <p>- インターネットメディア事業</p>
+                <picture class ="l-contents__business__picture">
+                  <img src="../画像/img/business1.jpg" alt="business1.jpg">
+                </picture>
+              </div>  
+            </div>
+            <div class="l-contents__business__right">
+              <div class="l-contents__business__right__1">
+                <p>- Web制作・マーケティング</p>
+                <picture class ="l-contents__business__picture">
+                  <img src="../画像/img/business3.jpg" alt="business3.jpg">
+                </picture>
+              </div>
+              <div class="l-contents__business__right__2">
+                <p>- インターネットメディア事業</p>
+                <picture class ="l-contents__business__picture">
+                  <img src="../画像/img/business4.jpg" alt="business4.jpg">
+                </picture>
+              </div>
+            </div>
+          </section>
+          <section class="l-contents__company">
+            <div class="l-contents__section__title">
+              <h1 class="l-contents__section__title">
+                C O M P A N Y
+              </h1>
+              <p>会社情報</p>
+            </div>
+            <dl>
+             <dt>会社名</dt>
+             <dd>ウェブエンターテイメントデザイン株式会社</dd>
+             <dt>所在地</dt>
+             <dd>東京都渋谷区桜丘町99-9 West Building 3F</dd>
+             <dt>代表</dt>
+             <dd>XXXXXX</dd>
+             <dt>設立</dt>
+             <dd>2021年1月1日</dd>
+             <dt>資本金</dt>
+             <dd>3,000,000円</dd>
+             <dt>事業内容</dt>
+             <dd>Web制作・マーケティング</dd>
+             <dd>インターネットメディア事業</dd>
+             <dd>プロモーション企画・制作</dd>
+             <dd>ソーシャル企画・運営</dd>
+           </dl>
+           <picture>
+             <img src="../画像/img/company.jpg" alt="company.jpg">
+           </picture>
+          </section>
     <footer>
       <div class="l-footer">
-        <div class="l-footer_sentence">
-          <p>©TOTALLY</p>
-        </div>
+        <div class="l-footer_menu">
+          <div class="l-footer_menu_left">
+            <div class="l-header_logo">
+              <img src="../画像/img/logo.svg" alt="l-header_logo" />
+            </div>
+            <div class="l-footer_menu_right">
+              <dl>
+                <dt>Web Entertainment Design Inc.</dt>
+                <dt>West Building 3F</dt>
+                <dt>9-99 Sakuragaokacho Shibuya-ku
+                </dt>
+                <dt>Tokyo, Japan 150-0031</dt>
+                <dt>T/99-9999-9999</dt>
+              </dl>
+          </div>
+          
 
+        </div>
+        <ul class="l-footer_menu_left">
+         
+        <div class="l-footer_sentence">
+          <p>© Web Entertainment Design Inc.</p>
+        </div>
       </div>
     </footer>
     <script src="js/jquery-3.6.0.js"></script>

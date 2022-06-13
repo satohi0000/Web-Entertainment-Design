@@ -1,17 +1,15 @@
-@use "../global" as g;
+@use "../global" as *;
 
 .l-header {
-  margin: 0 auto;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding-bottom: 17px;
-  border-bottom: solid 1px #c3c3c3;
+  height: 80px;
+  max-width: 100%;
 
   &_logo {
-    width: 109px;
+    width: 100px;
+    line-height: 80px;
     margin: 0 auto;
-    padding: 46px 0px 32px 16px;
-    @include g.sp {
+    padding-right: 20px;
+    @include sp {
       padding: 37px 0px 21px 0px;
     }
     img {
@@ -20,16 +18,22 @@
   }
   &_menu {
     display: flex;
+    line-height: 70px;
     justify-content: space-between;
     max-width: 800px;
     margin: 0 auto;
-    padding-left: 15px;
-    @include g.sp {
-      overflow-x: scroll;
+
+    @include sp {
     }
     &_left,
     &_right {
       display: flex;
+    }
+
+    &_left {
+      a {
+        padding-left: 30px;
+      }
     }
     &_right {
       padding-left: 7px;

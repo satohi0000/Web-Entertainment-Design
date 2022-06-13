@@ -1,13 +1,13 @@
-@use "../global/setting" as s;
+@use "../global/setting" as *;
 
 body {
   @mixin font-family {
-    font-family: s.$font-family;
+    font-family: $font-family;
   }
   @mixin color {
-    color: s.$color;
+    color: $color;
   }
-  background: s.$background;
+  background: $background;
   list-style: none;
   a {
     color: inherit;

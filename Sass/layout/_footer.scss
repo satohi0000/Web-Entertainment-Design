@@ -1,8 +1,8 @@
-@use "../global" as g;
+@use "../global" as *;
 
 .l-footer {
   padding: 107px 0 10px 7px;
-  @include g.sp {
+  @include sp {
     padding: 100px 0 10px 7px;
   }
   width: 100%;
