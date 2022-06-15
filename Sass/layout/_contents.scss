@@ -2,9 +2,9 @@
 
 .l-contents {
   margin: 0 auto;
-  max-width: 100%;
+  max-width: 1400px;
   &__picture {
-    width: 100vw;
+    width: 100%;
     object-fit: cover;
     @include sp {
       max-width: none;
