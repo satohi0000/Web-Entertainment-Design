@@ -25,4 +25,7 @@ body {
   td {
     @include f_around(14, regular, 35.2, 0);
   }
+  time {
+    @include f_around(13, regular, 24, 0);
+  }
 }
