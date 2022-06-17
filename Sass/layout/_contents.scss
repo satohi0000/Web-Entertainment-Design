@@ -18,14 +18,14 @@
   &__news {
     max-width: 1000px;
     margin: 0 auto;
-    margin-top: 127px;
+    margin-top: 128px;
     @include sp {
       flex-direction: column;
       padding-left: 0;
     }
     &__topic {
       display: flex;
-      margin-top: 57px;
+      margin-top: 54px;
       li {
         width: 33%;
         border-right: 1px solid #000;
@@ -37,10 +37,31 @@
           border: none;
         }
       }
+      p {
+        padding-top: 10px;
+      }
+
       @include sp {
         width: 100%;
         padding: 6px 16px;
       }
+    }
+  }
+  &__about {
+    display: flex;
+    margin-top: 120px;
+    picture {
+      width: 55%;
+      height: 400px;
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+    &__topic {
+      width: 45%;
+      margin-left: 70px;
+      margin-top: 190px;
     }
   }
 
@@ -56,8 +77,11 @@
         height: 1px;
         background-color: #000;
         display: block;
-        margin-top: 33px;
+        margin-top: 37px;
       }
+    }
+    &__p {
+      @include f_around(14, regular, 30.8, 0);
     }
   }
 }

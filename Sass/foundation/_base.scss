@@ -28,4 +28,13 @@ body {
   time {
     @include f_around(13, regular, 24, 0);
   }
+  .btopic {
+    background-color: #000;
+    color: #fff;
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    padding: 4px 7px;
+    margin-left: 9px;
+  }
 }
