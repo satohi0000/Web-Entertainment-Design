@@ -1,0 +1,23 @@
+@use "../global" as *;
+
+.p-article {
+  &__section {
+    &__title {
+      margin-bottom: 20px;
+    }
+    &__text {
+      @include f_around(11, regular, 24, 0);
+      &::after {
+        content: "";
+        width: 40px;
+        height: 1px;
+        background-color: #000;
+        display: block;
+        margin-top: 37px;
+      }
+    }
+    &__p {
+      @include f_around(14, regular, 30.8, 0);
+    }
+  }
+}

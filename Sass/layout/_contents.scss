@@ -50,6 +50,7 @@
   &__about {
     display: flex;
     margin-top: 120px;
+
     picture {
       width: 55%;
       height: 400px;
@@ -64,24 +65,30 @@
       margin-top: 190px;
     }
   }
-
-  &__section {
-    &__title {
-      margin-bottom: 20px;
+  &__business {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 130px;
+    &__topic {
+      display: flex;
+      justify-content: space-between;
     }
-    &__text {
-      @include f_around(11, regular, 24, 0);
-      &::after {
-        content: "";
-        width: 40px;
-        height: 1px;
-        background-color: #000;
-        display: block;
-        margin-top: 37px;
+    &__left,
+    &__right {
+      width: 46%;
+      img {
+        width: 100%;
+      }
+      &__2 {
+        margin-top: 53px;
       }
     }
-    &__p {
-      @include f_around(14, regular, 30.8, 0);
+    &__left {
+      margin-top: 130px;
     }
+  }
+  &__company {
+    padding: 110px 62px;
+    background-color: #fff;
   }
 }
