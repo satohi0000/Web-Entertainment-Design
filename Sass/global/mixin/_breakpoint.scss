@@ -1,4 +1,4 @@
-$tab: 896px;
+$tab: 900px;
 @mixin tab {
   @media (max-width: ($tab)) {
     @content;

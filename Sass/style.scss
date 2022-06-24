@@ -1,10 +1,7 @@
 @use "foundation/base";
 @use "foundation/display";
 @use "foundation/reset";
-@use "global/mixin";
-@use "layout/contents";
-@use "layout/page";
-@use "layout/footer";
-@use "layout/header";
-@use "project/article";
+@use "global";
+@use "layout";
+@use "project";
 @use "component";
