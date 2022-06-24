@@ -10,7 +10,9 @@
     line-height: 93px;
     padding-right: 30px;
     @include sp {
-      padding: 37px 0px 21px 0px;
+      width: 20%;
+      line-height: 54px;
+      margin-left: 18px;
     }
     img {
       width: 100%;
@@ -21,26 +23,50 @@
     max-width: 100%;
     display: flex;
     justify-content: space-between;
+    @include sp {
+      flex-direction: column;
+    }
     a {
       padding-bottom: 12px;
+      @include sp {
+        padding-bottom: 18px;
+        display: block;
+        line-height: 0;
+      }
+    }
+    li {
+      @include sp {
+        line-height: 0;
+      }
     }
 
-    @include sp {
-    }
     &_left,
     &_right {
       display: flex;
+      @include tab {
+        flex-direction: column;
+      }
     }
 
     &_left {
-      align-items: center;
-
       padding-left: 90px;
+      @include tab {
+        align-items: flex-start;
+        padding-left: 0px;
+      }
       a {
         padding-left: 30px;
+        &:nth-child(1) {
+          @include tab {
+            padding-left: 15px;
+          }
+        }
       }
     }
     &_right {
+      @include tab {
+        display: none;
+      }
       background-color: black;
       color: white;
       width: 200px;
