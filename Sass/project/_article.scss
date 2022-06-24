@@ -3,20 +3,27 @@
 .p-article {
   &__section {
     &__title {
-      margin-bottom: 20px;
+      margin-bottom: 24px;
+      &__a {
+        background-color: #fff;
+        width: 38%;
+        padding: 110px 60px 110px 60px;
+      }
     }
     &__text {
-      @include f_around(11, regular, 24, 0);
+      @include f_around(14, regular, 24, 0);
       &::after {
         content: "";
         width: 40px;
         height: 1px;
         background-color: #000;
         display: block;
-        margin-top: 37px;
+        margin-top: 35px;
       }
     }
     &__p {
+      padding-top: 19px;
+      padding-right: 66px;
       @include f_around(14, regular, 30.8, 0);
     }
   }
