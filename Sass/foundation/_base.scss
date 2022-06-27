@@ -19,7 +19,7 @@ body {
   }
   dt,
   dd {
-    @include f_around(14, regular, 31, 0);
+    @include f_around(14, regular, 28, 0);
   }
   time {
     @include f_around(13, regular, 24, 0);

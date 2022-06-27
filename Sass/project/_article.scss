@@ -7,7 +7,12 @@
       &__a {
         background-color: #fff;
         width: 567px;
-        padding: 116px 60px 110px 60px;
+        padding: 54px 60px 110px 26px;
+        @include sp {
+          width: 82%;
+          padding: 54px 47px 20px 26px;
+          margin-bottom: 20px;
+        }
       }
     }
     &__text {
@@ -19,11 +24,19 @@
         background-color: #000;
         display: block;
         margin-top: 35px;
+        @include sp {
+          margin-top: 23px;
+        }
       }
     }
     &__p {
       padding-top: 19px;
       padding-right: 66px;
+      @include sp {
+        padding-top: 0px;
+        padding-right: 0px;
+      }
+
       @include f_around(14, regular, 30.8, 0);
     }
   }

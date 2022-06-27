@@ -4,14 +4,24 @@
   background-color: #ffff;
   max-width: 100%;
   padding: 28px;
+  @include sp {
+    padding: 28px 0 0 15px;
+  }
   &__menu {
     max-width: 1000px;
     margin: 0 auto;
     display: flex;
+    @include sp {
+      flex-direction: column;
+    }
     justify-content: space-between;
     &__logo {
       width: 100px;
       margin-top: 40px;
+      @include sp {
+        width: 25%;
+        margin-top: 0;
+      }
       img {
         width: 100%;
       }
@@ -27,6 +37,9 @@
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 22px;
+    @include tab {
+      margin-top: 39px;
+    }
     p {
       @include f_around(12, regular, 24, 0);
     }
