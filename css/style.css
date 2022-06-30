@@ -291,6 +291,10 @@ select {
 .l-contents__news__topic p {
   padding-top: 14px;
 }
+.l-contents__contact__topic {
+  margin-top: 92px;
+  margin-left: 200px;
+}
 .l-contents__about {
   display: flex;
   margin-top: 130px;
@@ -571,6 +575,7 @@ select {
   background-color: black;
   color: white;
   width: 200px;
+  height: 80px;
   align-items: center;
 }
 @media (max-width: 900px) {
