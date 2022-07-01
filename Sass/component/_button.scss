@@ -1,0 +1,14 @@
+@use "../global" as *;
+
+.c-button__form {
+  justify-content: center;
+  width: 100px;
+  height: 43px;
+  margin-left: 450px;
+  margin-top: 20px;
+
+  input {
+    height: 100%;
+    width: 100%;
+  }
+}

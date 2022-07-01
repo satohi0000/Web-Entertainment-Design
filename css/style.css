@@ -189,7 +189,7 @@ table {
   border-spacing: 0;
 }
 
-/* change border colour to suit your needs */
+/* change border color to suit your needs */
 hr {
   display: block;
   height: 1px;
@@ -740,6 +740,13 @@ select {
     margin-top: 23px;
   }
 }
+.p-article__section__text-2 {
+  font-size: 14px;
+  font-weight: regular;
+  line-height: 1.7142857143;
+  letter-spacing: 0em;
+  margin-top: 95px;
+}
 .p-article__section__p {
   padding-top: 19px;
   padding-right: 66px;
@@ -818,4 +825,45 @@ select {
     padding-top: 0px;
     padding-bottom: 10px;
   }
+}
+
+.c-form {
+  margin-top: 55px;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-bottom: 130px;
+}
+.c-form__input {
+  margin-top: 57px;
+  margin-bottom: 50px;
+}
+.c-form__input dt :nth-child(2) {
+  margin: 20px;
+}
+.c-form__text-1 {
+  background-color: #fff;
+  border: none;
+  width: 82.9%;
+  height: 48px;
+}
+.c-form__text-2 {
+  background-color: #fff;
+  border: none;
+  width: 82.9%;
+  height: 180px;
+}
+.c-form__title-2 {
+  margin-top: 28px;
+}
+
+.c-button__form {
+  justify-content: center;
+  width: 100px;
+  height: 43px;
+  margin-left: 450px;
+  margin-top: 20px;
+}
+.c-button__form input {
+  height: 100%;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

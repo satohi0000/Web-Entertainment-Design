@@ -28,6 +28,10 @@
           margin-top: 23px;
         }
       }
+      &-2 {
+        @include f_around(14, regular, 24, 0);
+        margin-top: 95px;
+      }
     }
     &__p {
       padding-top: 19px;
