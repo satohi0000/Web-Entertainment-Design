@@ -292,7 +292,7 @@ select {
   padding-top: 14px;
 }
 .l-contents__contact__topic {
-  margin-top: 92px;
+  margin-top: 95px;
   margin-left: 200px;
 }
 .l-contents__about {
@@ -762,6 +762,13 @@ select {
   }
 }
 
+.title2 {
+  font-size: 36px;
+  font-weight: regular;
+  line-height: 0.6666666667;
+  letter-spacing: 0.36em;
+}
+
 .btopic {
   background-color: #000;
   color: #fff;
@@ -866,4 +873,53 @@ select {
 .c-button__form input {
   height: 100%;
   width: 100%;
+}
+
+.c-tab-container {
+  width: 80%;
+}
+.c-tab-toggle {
+  border: 1px solid #000;
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+  cursor: pointer;
+}
+.c-tab-toggle-group {
+  display: flex;
+}
+.c-tab-toggle:first-child {
+  border-radius: 15px 0 0 0;
+}
+.c-tab-toggle:last-child {
+  border-radius: 0 15px 0 0;
+}
+.c-tab-toggle.on:nth-of-type(1) {
+  background-color: yellow;
+}
+.c-tab-toggle.on:nth-of-type(2) {
+  background-color: orange;
+}
+.c-tab-toggle.on:nth-of-type(3) {
+  background-color: red;
+}
+.c-tab-content {
+  border: 1px solid #000;
+  text-align: center;
+  display: none;
+}
+.c-tab-content.show {
+  display: block;
+}
+.c-tab-content p {
+  padding: 100px;
+}
+.c-tab-content:nth-of-type(1) {
+  background-color: yellow;
+}
+.c-tab-content:nth-of-type(2) {
+  background-color: orange;
+}
+.c-tab-content:nth-of-type(3) {
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */

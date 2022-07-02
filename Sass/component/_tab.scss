@@ -1,0 +1,54 @@
+@use "../global" as *;
+
+.c-tab {
+  &-container {
+    width: 80%;
+  }
+  &-toggle {
+    border: 1px solid #000;
+    width: 100%;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    &-group {
+      display: flex;
+    }
+    &:first-child {
+      border-radius: 15px 0 0 0;
+    }
+    &:last-child {
+      border-radius: 0 15px 0 0;
+    }
+    &.on {
+      &:nth-of-type(1) {
+        background-color: yellow;
+      }
+      &:nth-of-type(2) {
+        background-color: orange;
+      }
+      &:nth-of-type(3) {
+        background-color: red;
+      }
+    }
+  }
+  &-content {
+    border: 1px solid #000;
+    text-align: center;
+    display: none;
+    &.show {
+      display: block;
+    }
+    p {
+      padding: 100px;
+    }
+    &:nth-of-type(1) {
+      background-color: yellow;
+    }
+    &:nth-of-type(2) {
+      background-color: orange;
+    }
+    &:nth-of-type(3) {
+      background-color: red;
+    }
+  }
+}
