@@ -48,4 +48,7 @@
 
 .title2 {
   @include f_around(36, regular, 24, 360);
+  @include sp {
+    @include f_around(30, regular, 24, 400);
+  }
 }

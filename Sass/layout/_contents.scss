@@ -72,6 +72,10 @@
     &__topic {
       margin-top: 95px;
       margin-left: 200px;
+      @include sp {
+        margin-top: 50px;
+        margin-left: 20px;
+      }
     }
   }
   &__about {

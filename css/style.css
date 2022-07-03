@@ -295,6 +295,12 @@ select {
   margin-top: 95px;
   margin-left: 200px;
 }
+@media (max-width: 599px) {
+  .l-contents__contact__topic {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+}
 .l-contents__about {
   display: flex;
   margin-top: 130px;
@@ -469,7 +475,7 @@ select {
 @media (max-width: 599px) {
   .l-footer__menu__logo {
     width: 25%;
-    margin-top: 0;
+    margin-top: 17px;
   }
 }
 .l-footer__menu__logo img {
@@ -492,7 +498,7 @@ select {
 }
 @media (max-width: 900px) {
   .l-footer__sentence {
-    margin-top: 39px;
+    margin-top: 30px;
   }
 }
 .l-footer__sentence p {
@@ -514,9 +520,7 @@ select {
 }
 @media (max-width: 599px) {
   .l-header_logo {
-    width: 20%;
-    line-height: 56px;
-    margin-left: 18px;
+    margin-top: 16px;
   }
 }
 .l-header_logo img {
@@ -770,6 +774,14 @@ select {
   line-height: 0.6666666667;
   letter-spacing: 0.36em;
 }
+@media (max-width: 599px) {
+  .title2 {
+    font-size: 30px;
+    font-weight: regular;
+    line-height: 0.8;
+    letter-spacing: 0.4em;
+  }
+}
 
 .btopic {
   background-color: #000;
@@ -883,6 +895,12 @@ select {
   margin-bottom: 120px;
   padding: 0px;
 }
+@media (max-width: 599px) {
+  .c-tab-container {
+    width: 95%;
+    margin-top: 77px;
+  }
+}
 .c-tab-toggle {
   width: 24%;
   text-align: center;
@@ -892,6 +910,11 @@ select {
   font-weight: regular;
   line-height: 1.6;
   letter-spacing: 0em;
+}
+@media (max-width: 599px) {
+  .c-tab-toggle {
+    width: 50%;
+  }
 }
 .c-tab-toggle-group {
   display: flex;
@@ -918,12 +941,30 @@ select {
   margin-top: 47px;
   border-bottom: 1px solid #000;
 }
+@media (max-width: 599px) {
+  .c-tab-content.show li {
+    margin-top: 38px;
+  }
+}
 .c-tab-content p {
   font-size: 16px;
   font-weight: regular;
   line-height: 2.5;
   letter-spacing: 0em;
 }
+@media (max-width: 599px) {
+  .c-tab-content p {
+    font-size: 14px;
+    font-weight: regular;
+    line-height: 1.9285714286;
+    letter-spacing: 0em;
+  }
+}
 .c-tab-content p:nth-of-type(1) {
   margin: 0 0 40px 0;
+}
+@media (max-width: 599px) {
+  .c-tab-content p:nth-of-type(1) {
+    margin: 4px 0 34px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
