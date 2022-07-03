@@ -1,3 +1,4 @@
+// タグ実装
 $(".c-tab-toggle").on("click", function () {
   $(this)
     .closest(".c-tab-container")
